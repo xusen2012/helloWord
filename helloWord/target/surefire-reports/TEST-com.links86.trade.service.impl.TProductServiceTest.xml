@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.links86.trade.service.impl.TProductServiceTest" time="0.292" tests="8" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\PROJECTS\links86system6666666666\links86-trade"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hand\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Java\apache-maven-3.0.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\database\product\11.2.0\dbhome_1\bin;SystemRoot%\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files\Java\jdk1.8.0_73\jre\bin;E:\TestTool\jmeter\apache-jmeter-2.13\bin;MAVEN_HOME%\bin;E:\apache-tomcat-7.0.68\lib;E:\apache-tomcat-7.0.68\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.0.4\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\hand"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="hand"/>
+    <property name="java.class.path" value="C:\Program Files\Java\apache-maven-3.0.4\bin\..\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -Dmaven.test.ship=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="maven.test.ship" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Java\apache-maven-3.0.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="delete" classname="com.links86.trade.service.impl.TProductServiceTest" time="0"/>
+  <testcase name="exists" classname="com.links86.trade.service.impl.TProductServiceTest" time="0"/>
+  <testcase name="findById" classname="com.links86.trade.service.impl.TProductServiceTest" time="0"/>
+  <testcase name="findByName" classname="com.links86.trade.service.impl.TProductServiceTest" time="0.015">
+    <error message="could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement" type="org.springframework.dao.DataIntegrityViolationException"><![CDATA[org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:45)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2886)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3386)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:89)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:560)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:434)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:337)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1282)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:465)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2963)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2339)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:485)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:147)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$100(JdbcResourceLocalTransactionCoordinatorImpl.java:38)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:231)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:65)
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:61)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:483)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:290)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.links86.trade.service.impl.TUserService$$EnhancerBySpringCGLIB$$9ae1bd7f.save(<generated>)
+	at com.links86.trade.service.impl.TProductServiceTest.findByName(TProductServiceTest.java:117)
+]]></error>
+    <system-out><![CDATA[Hibernate: select tuser0_.id as id1_10_1_, tuser0_.name as name2_10_1_, tuser0_.out_uid as out_uid3_10_1_, tuser0_.type as type4_10_1_, tuser0_.update_time as update_t5_10_1_, taccount1_.id as id1_0_0_, taccount1_.freeze as freeze2_0_0_, taccount1_.name as name3_0_0_, taccount1_.user_id as user_id4_0_0_ from t_user tuser0_ left outer join t_account taccount1_ on tuser0_.id=taccount1_.user_id where tuser0_.id=?
+Hibernate: insert into t_user (name, out_uid, type, update_time, id) values (?, ?, ?, ?, ?)
+[WARN ] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+[ERROR] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '0' for key 'UK_onsf1bjsqtcor26bfj5bfvytv'
+[INFO ] 12-23 09:57:15 [main] o.h.e.j.b.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+]]></system-out>
+  </testcase>
+  <testcase name="findByCompanyId" classname="com.links86.trade.service.impl.TProductServiceTest" time="0.13">
+    <error message="could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement" type="org.springframework.dao.DataIntegrityViolationException"><![CDATA[org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:45)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2886)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3386)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:89)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:560)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:434)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:337)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1282)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:465)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2963)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2339)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:485)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:147)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$100(JdbcResourceLocalTransactionCoordinatorImpl.java:38)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:231)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:65)
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:61)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:483)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:290)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.links86.trade.service.impl.TUserService$$EnhancerBySpringCGLIB$$9ae1bd7f.save(<generated>)
+	at com.links86.trade.service.impl.TProductServiceTest.findByCompanyId(TProductServiceTest.java:143)
+]]></error>
+    <system-out><![CDATA[Hibernate: select tuser0_.id as id1_10_1_, tuser0_.name as name2_10_1_, tuser0_.out_uid as out_uid3_10_1_, tuser0_.type as type4_10_1_, tuser0_.update_time as update_t5_10_1_, taccount1_.id as id1_0_0_, taccount1_.freeze as freeze2_0_0_, taccount1_.name as name3_0_0_, taccount1_.user_id as user_id4_0_0_ from t_user tuser0_ left outer join t_account taccount1_ on tuser0_.id=taccount1_.user_id where tuser0_.id=?
+Hibernate: insert into t_user (name, out_uid, type, update_time, id) values (?, ?, ?, ?, ?)
+[WARN ] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+[ERROR] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '0' for key 'UK_onsf1bjsqtcor26bfj5bfvytv'
+[INFO ] 12-23 09:57:15 [main] o.h.e.j.b.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+]]></system-out>
+  </testcase>
+  <testcase name="save" classname="com.links86.trade.service.impl.TProductServiceTest" time="0.083">
+    <error message="could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement" type="org.springframework.dao.DataIntegrityViolationException"><![CDATA[org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:45)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2886)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3386)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:89)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:560)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:434)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:337)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1282)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:465)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2963)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2339)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:485)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:147)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$100(JdbcResourceLocalTransactionCoordinatorImpl.java:38)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:231)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:65)
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:61)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:483)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:290)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.links86.trade.service.impl.TUserService$$EnhancerBySpringCGLIB$$9ae1bd7f.save(<generated>)
+	at com.links86.trade.service.impl.TProductServiceTest.save(TProductServiceTest.java:50)
+]]></error>
+    <system-out><![CDATA[Hibernate: select tuser0_.id as id1_10_1_, tuser0_.name as name2_10_1_, tuser0_.out_uid as out_uid3_10_1_, tuser0_.type as type4_10_1_, tuser0_.update_time as update_t5_10_1_, taccount1_.id as id1_0_0_, taccount1_.freeze as freeze2_0_0_, taccount1_.name as name3_0_0_, taccount1_.user_id as user_id4_0_0_ from t_user tuser0_ left outer join t_account taccount1_ on tuser0_.id=taccount1_.user_id where tuser0_.id=?
+Hibernate: insert into t_user (name, out_uid, type, update_time, id) values (?, ?, ?, ?, ?)
+[WARN ] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+[ERROR] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '0' for key 'UK_onsf1bjsqtcor26bfj5bfvytv'
+[INFO ] 12-23 09:57:15 [main] o.h.e.j.b.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+]]></system-out>
+  </testcase>
+  <testcase name="delete1" classname="com.links86.trade.service.impl.TProductServiceTest" time="0.004"/>
+  <testcase name="upAndDown" classname="com.links86.trade.service.impl.TProductServiceTest" time="0.06">
+    <error message="could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement" type="org.springframework.dao.DataIntegrityViolationException"><![CDATA[org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_onsf1bjsqtcor26bfj5bfvytv]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at sun.reflect.GeneratedConstructorAccessor74.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:45)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2886)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3386)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:89)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:560)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:434)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:337)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1282)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:465)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2963)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2339)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:485)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:147)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$100(JdbcResourceLocalTransactionCoordinatorImpl.java:38)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:231)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:65)
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:61)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:483)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:290)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at com.links86.trade.service.impl.TUserService$$EnhancerBySpringCGLIB$$9ae1bd7f.save(<generated>)
+	at com.links86.trade.service.impl.TProductServiceTest.upAndDown(TProductServiceTest.java:85)
+]]></error>
+    <system-out><![CDATA[Hibernate: select tuser0_.id as id1_10_1_, tuser0_.name as name2_10_1_, tuser0_.out_uid as out_uid3_10_1_, tuser0_.type as type4_10_1_, tuser0_.update_time as update_t5_10_1_, taccount1_.id as id1_0_0_, taccount1_.freeze as freeze2_0_0_, taccount1_.name as name3_0_0_, taccount1_.user_id as user_id4_0_0_ from t_user tuser0_ left outer join t_account taccount1_ on tuser0_.id=taccount1_.user_id where tuser0_.id=?
+Hibernate: insert into t_user (name, out_uid, type, update_time, id) values (?, ?, ?, ?, ?)
+[WARN ] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+[ERROR] 12-23 09:57:15 [main] o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '0' for key 'UK_onsf1bjsqtcor26bfj5bfvytv'
+[INFO ] 12-23 09:57:15 [main] o.h.e.j.b.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+]]></system-out>
+  </testcase>
+</testsuite>

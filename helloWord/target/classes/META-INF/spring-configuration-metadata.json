@@ -1,0 +1,13 @@
+{
+  "groups": [{
+    "name": "crossDomainFilter",
+    "type": "com.links86.trade.filter.CrossDomainFilter",
+    "sourceType": "com.links86.trade.filter.CrossDomainFilter"
+  }],
+  "properties": [{
+    "name": "crossDomainFilter.origin",
+    "type": "java.lang.String",
+    "sourceType": "com.links86.trade.filter.CrossDomainFilter"
+  }],
+  "hints": []
+}

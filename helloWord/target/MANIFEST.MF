@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: links86-trade
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: hand
+Implementation-Vendor-Id: links86
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_73
+Main-Class: com.links86.trade.Application
+

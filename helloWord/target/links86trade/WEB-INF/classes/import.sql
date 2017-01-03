@@ -1,0 +1,130 @@
+-- MySQL dump 10.13  Distrib 5.7.16, for osx10.12 (x86_64)
+--
+-- Host: localhost    Database: links86trade
+-- ------------------------------------------------------
+-- Server version	5.7.16
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `t_user`
+--
+
+LOCK TABLES `t_user` WRITE;
+/*!40000 ALTER TABLE `t_user` DISABLE KEYS */;
+INSERT INTO `t_user` VALUES (6208831414129922048,'集商网络科技(上海)有限公司',1,'COMPANY','2016-11-28 10:39:24');
+/*!40000 ALTER TABLE `t_user` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_account`
+--
+
+LOCK TABLES `t_account` WRITE;
+/*!40000 ALTER TABLE `t_account` DISABLE KEYS */;
+INSERT INTO `t_account` VALUES (6208831643482853376,'0','集商网络账户中心',6208831414129922048);
+/*!40000 ALTER TABLE `t_account` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_account_address`
+--
+
+LOCK TABLES `t_account_address` WRITE;
+/*!40000 ALTER TABLE `t_account_address` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_account_address` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_account_detail`
+--
+
+LOCK TABLES `t_account_detail` WRITE;
+/*!40000 ALTER TABLE `t_account_detail` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_account_detail` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_account_item`
+--
+
+LOCK TABLES `t_account_item` WRITE;
+/*!40000 ALTER TABLE `t_account_item` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_account_item` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_bill_detail`
+--
+
+LOCK TABLES `t_bill_detail` WRITE;
+/*!40000 ALTER TABLE `t_bill_detail` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_bill_detail` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_loan`
+--
+
+LOCK TABLES `t_loan` WRITE;
+/*!40000 ALTER TABLE `t_loan` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_loan` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_loan_detail`
+--
+
+LOCK TABLES `t_loan_detail` WRITE;
+/*!40000 ALTER TABLE `t_loan_detail` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_loan_detail` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_product`
+--
+
+LOCK TABLES `t_product` WRITE;
+/*!40000 ALTER TABLE `t_product` DISABLE KEYS */;
+INSERT INTO `t_product` VALUES (6208835628201676800,'VIP免费试用','ON',6208831414129922048),(6208835719469731840,'VIP一年5万套餐','ON',6208831414129922048),(6208835780303917056,'VIP两年8万套餐','ON',6208831414129922048),(6208835871098015744,'VIP三年10万套餐','ON',6208831414129922048);
+/*!40000 ALTER TABLE `t_product` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_product_servers`
+--
+
+LOCK TABLES `t_product_servers` WRITE;
+/*!40000 ALTER TABLE `t_product_servers` DISABLE KEYS */;
+/*!40000 ALTER TABLE `t_product_servers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `t_server`
+--
+
+LOCK TABLES `t_server` WRITE;
+/*!40000 ALTER TABLE `t_server` DISABLE KEYS */;
+INSERT INTO `t_server` VALUES (6208836161725534208,0.01,'2016-11-25 15:04:10',NULL,'免费资费包','ON',6208835628201676800),(6208836503670362112,50000.00,'2016-11-25 15:04:10',NULL,'VIP一年服务','ON',6208835719469731840),(6208836716514512896,80000.00,'2016-11-25 15:04:10',NULL,'VIP两年服务','ON',6208835780303917056),(6208836893140848640,100000.00,'2016-11-25 15:04:10',NULL,'VIP三年服务','ON',6208835871098015744);
+/*!40000 ALTER TABLE `t_server` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-11-28 11:03:11

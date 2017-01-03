@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>links86-system</artifactId>
+        <groupId>links86</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>links86-trade</artifactId>
+    <name>links86-trade</name>
+	<description>支付模块</description>
+    <!--<packaging>jar</packaging>-->
+    <packaging>war</packaging>
+
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>com.links86.trade.Application</start-class>
+        <java.version>1.8</java.version>
+    </properties>
+    <scm>
+        <connection>scm:git:git://github.com/paypal/merchant-sdk-java.git</connection>
+        <url>https://github.com/paypal/merchant-sdk-java.git</url>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>links86</groupId>
+            <artifactId>links86-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.17</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+
+		<!-- 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency>
+ 		-->
+ 		
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.httpcomponents</groupId>-->
+            <!--<artifactId>httpcore</artifactId>-->
+            <!--<version>4.4.5</version>-->
+        <!--</dependency>-->
+
+
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+        <!--paypal begin-->
+        <dependency>
+            <groupId>com.paypal.sdk</groupId>
+            <artifactId>paypal-core</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>com.paypal.sdk</groupId>
+            <artifactId>permissionssdk</artifactId>
+            <version>2.4.109</version>
+        </dependency>
+        <!--end-->
+        <!--支付宝-->
+        <dependency>
+            <groupId>com.alipay</groupId>
+            <artifactId>sdk</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay</groupId>
+            <artifactId>sdk.source</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.trade</groupId>
+            <artifactId>logging</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.trade</groupId>
+            <artifactId>logging.source</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <finalName>links86trade</finalName>
+        <plugins>
+           <!--  <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>utf8</encoding>
+                </configuration>
+            </plugin>
+              -->
+        </plugins>
+       
+    </build>
+    <licenses>
+        <license>
+            <name>PayPal SDK License</name>
+            <url>https://github.com/paypal/merchant-sdk-java/blob/master/LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>DL-PP-Platform-Java-SDK</id>
+            <name>DL-PP-Platform-Java-SDK</name>
+            <email>DL-PP-Platform-Java-SDK@paypal.com</email>
+            <url>http://www.paypal.com</url>
+            <organization>PayPal</organization>
+            <organizationUrl>http://www.paypal.com</organizationUrl>
+        </developer>
+    </developers>
+</project>

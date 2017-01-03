@@ -1,0 +1,65 @@
+node: 999
+server:
+    port: 9102
+    context-path: /links86trade
+logging:
+    level:
+        com.links86.trade: DEBUG
+spring:
+    mvc.view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
+    datasource:
+        url: jdbc:mysql://rm-bp14784ype39q644ni.mysql.rds.aliyuncs.com/links86?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
+        username: links86
+        password: hand@js2016
+        testWhileIdle: true
+        validationQuery: SELECT 1
+        sql-script-encoding: utf-8
+        ## update 替换为create-drop 默认创建
+    jpa:
+        show-sql: true
+        hibernate:
+            generate-ddl: true
+            ddl-auto: update
+        properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#            naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#####   以下是 aplipay 支付接口的配置
+#####  两个回调都必须是绑定公网域名才会有返回
+####    正式生产之后此两个key都需要修改掉！
+com:
+   alipay:
+        partner: 2088421743486096
+        seller_id: 2088421743486096
+        key: ow8q96gwfkf7yh0v7l4v3cfv4d9s1lcm
+        private_key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxFddE22OUjCYJQfLGXjM2rU9rATIii2GV8iWxGyQNLpVRXHYxhORO4297WaxTtKOS+VZrExsCTcwXkvjDNkMp52osa0bR6YMma5KYFbLGbDIopCGGVsMJGYR3vKrGssWHZMMaeyN5FADr05pR2GjdFJt64mP7pyjS8cKijbI+jQIDAQAB
+        alipay_public_key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB
+        notify_url: https://www.86links.com/links86trade/trade/notify_url
+        return_url: https://www.86links.com/links86trade/trade/return_url
+        sign_type: MD5
+        log_path: ../logs
+        input_charset: utf-8
+        payment_type: 1
+        service: create_direct_pay_by_user
+        fail_return_url: https://www.86links.com/#/homepage/payVIPFail
+        success_return_url: https://www.86links.com/#/homepage/payVIPsuccess
+
+
+####   paypal 正式环境下配置
+####   mode 需修改为live
+####   userName password signature 都来源于商家账户  查询连接http://www.putler.com/support/faq/how-to-get-paypal-api-username-password-and-signature-information/
+####   login_url   https://www.paypal.com/cgi-bin/webscr  移出测试环境的sandbox
+   paypal:
+        mode: live
+        userName: 86links_api1.86links.com
+        password: SKT7LDB8K8ES35J6
+        signature: AiPC9BjkCyDFQXbSkoZcgqH3hpacA6W8HqIVfFuZc47MiICkYnRdzxDJ
+        return_url: https://www.86links.com/links86trade/trade/paypal_return_url
+        login_url: https://www.paypal.com/cgi-bin/webscr
+        success_return_url: https://www.86links.com/#/homepage/payVIPsuccess
+        fail_return_url: https://www.86links.com/#/homepage/payVIPFail
+        cancel_url: https://www.86links.com/#/homepage/upVip
+crossDomainFilter:
+    origin: "*"
+
+

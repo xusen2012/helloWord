@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.DemoApplicationTests" time="0.001" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\PROJECTS\links86system6666666666\links86-trade"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hand\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Java\apache-maven-3.0.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\database\product\11.2.0\dbhome_1\bin;SystemRoot%\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files\Java\jdk1.8.0_73\jre\bin;E:\TestTool\jmeter\apache-jmeter-2.13\bin;MAVEN_HOME%\bin;E:\apache-tomcat-7.0.68\lib;E:\apache-tomcat-7.0.68\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.0.4\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\hand"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="hand"/>
+    <property name="java.class.path" value="C:\Program Files\Java\apache-maven-3.0.4\bin\..\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -Dmaven.test.ship=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="maven.test.ship" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Java\apache-maven-3.0.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="initializationError" classname="com.example.DemoApplicationTests" time="0.001">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:392)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:156)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:116)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:74)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.DemoApplicationTests], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.links86.trade.service.impl.TAccountServiceTest], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.links86.trade.service.impl.TAccountServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.links86.trade.service.impl.TAccountServiceTest]: TAccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.links86.trade.Application for test class com.links86.trade.service.impl.TAccountServiceTest
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f6efaab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c19aaa5, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@3349e9bb, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@409bf450, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38d8f54a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49e53c76, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@351d00c0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2a3b5b47, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55b699ef, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35d019a3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@689604d9]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.links86.trade.service.impl.TLoanServiceTest], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.links86.trade.service.impl.TLoanServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.links86.trade.service.impl.TLoanServiceTest]: TLoanServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.links86.trade.Application for test class com.links86.trade.service.impl.TLoanServiceTest
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@639c2c1d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5fe94a96, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@443118b0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@765d7657, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74235045, org.springframework.test.context.transaction.TransactionalTestExecutionListener@618b19ad, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d3379b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@30c15d8b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e0e82ae, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6771beb3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@51399530]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.links86.trade.service.impl.TProductServiceTest], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.links86.trade.service.impl.TProductServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.links86.trade.service.impl.TProductServiceTest]: TProductServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.links86.trade.Application for test class com.links86.trade.service.impl.TProductServiceTest
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1573f9fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6150c3ec, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@44c03695, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7e6f74c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@dd05255, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6a78afa0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2f4948e4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1f2586d6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@10683d9d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3fc2959f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5aa9e4eb]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.links86.trade.service.impl.TServerSevTest], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.links86.trade.service.impl.TServerSevTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.links86.trade.service.impl.TServerSevTest]: TServerSevTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.links86.trade.Application for test class com.links86.trade.service.impl.TServerSevTest
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@367ffa75, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49438269, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@ba2f4ec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c1bbc4e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55fe41ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@fbd1f6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ce24091, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5dda768f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7a8c8dcf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24269709, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2aceadd4]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.links86.trade.service.impl.TUserServiceTest], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.links86.trade.service.impl.TUserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.links86.trade.service.impl.TUserServiceTest]: TUserServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.links86.trade.Application for test class com.links86.trade.service.impl.TUserServiceTest
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ae13544, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@3d34d211, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7dc0f706, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4009e306, org.springframework.test.context.transaction.TransactionalTestExecutionListener@43c1b556, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@587e5365, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@22fcf7ab, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2de23121, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@63475ace, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4988d8b8]
+[INFO ] 12-23 09:56:56 [main] o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.DemoApplicationTests], using SpringBootContextLoader
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 12-23 09:56:56 [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+]]></system-out>
+  </testcase>
+</testsuite>
